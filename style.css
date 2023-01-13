@@ -1,0 +1,64 @@
+*{/** reset universal, se utiliza para los margenes de TODA
+    la pagina**/
+    margin:0; 
+    padding: 0;
+}
+body{/** engloba todo el cuerpo**/
+    font-family: sans-serif ; /**modifica la tipografía**/
+    font-size: 16px;/**tamaño de fuente**/
+}
+img{/**modifica la imagen**/
+    padding-left: 35em;/**margen externo izquierdo**/
+    padding-top: 1em; /**margen interno superior**/
+    width: 10%; /**width=anchura**/
+    /**EM es una unidad de medida, es decir, cada 1em hay 16px**/
+}
+nav{ /**barra de navegación**/
+    background-color: steelblue;
+    text-align: center;
+}
+nav a{ /**cuando ponemos "a" queremos decir que vamos a manipular
+    las etiquetas que estén dentro de las etiquetas nav**/
+    color: #fff; /**color del texto**/
+    display: inline-block; /**aumenta el espacio del fondo**/
+    padding: 0.5em;/** margenes internos, me separa los enlaces**/
+    text-decoration: none; /**saca el subrayado**/
+}
+nav a:hover{/**seudoclases*/
+    color: aqua; /**me modifica el cambio de color al pasarlo 
+    por encima**/
+}
+section{
+    height: auto;
+    width: 60%;
+    float: left;
+    margin: 0 0.5em 0 0.5em;
+}
+article{
+    border: 1px solid #ccc;
+    margin-top: 0.5em;
+    padding: 1em;
+}
+p{
+    text-align: justify;
+}
+
+aside{
+    background-color: #ccc;
+    height: auto;
+    padding: 1em;
+    width: 36%;
+    float: left;
+}
+
+footer{
+    background-color: steelblue;
+    color: aliceblue;
+    float: left;
+    position: fixed;
+    padding: 1em 0 1em 0;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    font-size: 0.7em;
+}
